@@ -1,10 +1,15 @@
-import React from 'react'
-import reactLogo from "@assets/react.svg";
+import Header from "@components/Header";
+
 const HomePage = () => {
   return (
-    <div>
-      <img src={reactLogo} alt="" />
+    <>
+    <div className="w-full min-h-screen ">
+      <Header />
+      <main>
+
+      </main>
     </div>
+    </>
   )
 }
 
