@@ -1,0 +1,80 @@
+## Blog MERN
+
+**Un blog simple construido con la stack MERN (MongoDB, Express, React, Node.js)**
+
+Este proyecto es un blog simple creado utilizando la pila MERN. Permite a los usuarios crear, leer, actualizar y eliminar publicaciones de blog.
+
+**Tecnologías utilizadas**
+
+* **Front-end:**
+    * React
+    * React Router
+    * Redux
+    * Bootstrap
+* **Back-end:**
+    * Node.js
+    * Express
+    * MongoDB
+
+**Características**
+
+* Creación de publicaciones de blog
+* Lectura de publicaciones de blog
+* Actualización de publicaciones de blog
+* Eliminación de publicaciones de blog
+* Autenticación de usuario
+* Autorización de usuario
+
+**Instalación**
+
+1. Clonar el repositorio:
+
+```bash
+git clone https://github.com/new/
+```
+
+2. Instalar dependencias:
+
+```bash
+npm install
+```
+
+3. Ejecutar el servidor:
+
+```bash
+npm start
+```
+
+4. Abrir la aplicación en el navegador:
+
+```bash
+open http://localhost:3000
+```
+
+**Uso**
+
+* Para crear una nueva publicación de blog, haga clic en el botón "Crear publicación".
+* Para leer una publicación de blog, haga clic en el título de la publicación.
+* Para actualizar una publicación de blog, haga clic en el botón "Editar" de la publicación.
+* Para eliminar una publicación de blog, haga clic en el botón "Eliminar" de la publicación.
+* Para iniciar sesión, haga clic en el enlace "Iniciar sesión".
+* Para registrarse, haga clic en el enlace "Registrarse".
+
+**Licencia**
+
+Este proyecto está licenciado bajo la licencia MIT.
+
+**Agradecimientos**
+
+Este proyecto se basa en varios proyectos de código abierto, incluyendo:
+
+* [Create React App](https://create-react-app.dev/)
+* [Express](https://expressjs.org/)
+* [Mongoose](https://mongoosejs.com/)
+* [Bootstrap](https://getbootstrap.com/)
+
+**Contribuciones**
+
+Las contribuciones a este proyecto son bienvenidas. Por favor, cree una solicitud de extracción si tiene alguna mejora o corrección de errores.
+
+**¡Gracias por usar este proyecto!**
