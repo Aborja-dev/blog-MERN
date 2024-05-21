@@ -10,9 +10,9 @@ const HomePage = () => {
     <div className="w-full min-h-screen ">
       <Header />
       <main>
-{/*         <Hero />
+        <Hero />
         <Posts />
-        <CTA /> */}
+        <CTA />
       </main>
       <Footer />
     </div>
