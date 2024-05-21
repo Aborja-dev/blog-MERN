@@ -2,6 +2,7 @@ import Header from "@components/Header";
 import Hero from "@components/Hero";
 import Posts from "@components/Posts";
 import CTA from "@components/CTA";
+import Footer from "@components/Footer";
 
 const HomePage = () => {
   return (
@@ -9,10 +10,11 @@ const HomePage = () => {
     <div className="w-full min-h-screen ">
       <Header />
       <main>
-        <Hero />
+{/*         <Hero />
         <Posts />
-        <CTA />
+        <CTA /> */}
       </main>
+      <Footer />
     </div>
     </>
   )
