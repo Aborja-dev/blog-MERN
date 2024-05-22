@@ -1,15 +1,16 @@
-import HomePage from "@pages/HomePage"
+import {Pages} from "@/pages"
+import HomePage from "@/pages/Home"
+
 
 function App() {
 
   return (
     <>
-      <HomePage />
+      < Pages.BLOG_DETAILS />
     </>
   )
 }
 
 export default App
 
-// genera una lista de parrafos que usen todos los tamaños de texto en tailwind, agrega una clase para cada tamanio
 

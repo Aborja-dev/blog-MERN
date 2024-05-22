@@ -1,9 +1,8 @@
-import Header from "@components/Header";
-import Hero from "@components/Hero";
-import Posts from "@components/Posts";
-import CTA from "@components/CTA";
-import Footer from "@components/Footer";
 import { Post } from "@/types";
+import BaseLayout from "@/components/layouts/BaseLayout";
+import Hero from "@/pages/Home/sections/Hero";
+import Posts from "@/pages/Home/sections/Posts";
+import CTA from "@/pages/Home/sections/CTA";
 
 // haz una lista de 6 post con la interfaz Post
 
@@ -62,15 +61,13 @@ const posts: Post[] = [
 const HomePage = () => {
   return (
     <>
-      <div className="w-full min-h-screen ">
-        <Header />
+      <BaseLayout>
         <main>
           <Hero />
           <Posts posts={posts} />
           <CTA />
         </main>
-        <Footer />
-      </div>
+      </BaseLayout>
     </>
   )
 }

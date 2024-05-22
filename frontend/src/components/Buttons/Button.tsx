@@ -1,6 +1,9 @@
+import { Component } from '@/types'
 import React from 'react'
-
-const Button = ({children, className, outline}) => {
+interface Props extends Component {
+  outline?: boolean
+}
+const Button: React.FC<Props> = ({children, className, outline}) => {
   return (
     <button 
     className={`

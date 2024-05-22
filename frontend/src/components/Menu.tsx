@@ -21,7 +21,7 @@ const NavigationMenu = () => {
             <button className='pr-6 lg:hidden' onClick={() => setOpen(!open)}>
                 <img src={icons.MENU_LOGO} className='w-10 h-10' alt="" />
             </button>
-            <div className={`w-full h-screen overflow-y-hidden absolute top-0 bg-blue-950 mt-20 transition-transform duration-300 ${open ? 'translate-x-0' :  '-translate-x-full'}`}>
+            <div className={`w-full h-screen overflow-y-hidden absolute top-0 bg-blue-950 mt-20 transition-transform duration-300 z-10 ${open ? 'translate-x-0' :  '-translate-x-full'}`}>
             <div className='w-auto h-full'>
                 <ul className="flex flex-col h-4/5 justify-center gap-6 text-white font-semibold">
                     <li className="text-center"><a href="/">Home</a></li>

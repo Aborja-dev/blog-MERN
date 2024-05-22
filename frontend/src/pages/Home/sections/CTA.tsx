@@ -1,4 +1,4 @@
-import { assets, images } from "@/constants";
+import { assets } from "@/constants";
 import Button from "@components/Buttons/Button";
 import Field from "@components/Field";
 import CTACard from "@components/CTACard";
