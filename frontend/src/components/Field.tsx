@@ -1,5 +1,5 @@
 import React from 'react'
-import { Component } from 'types/types'
+import { Component } from '@/types'
 
 
 const Field: React.FC<Component> = () => {

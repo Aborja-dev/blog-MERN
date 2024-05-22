@@ -7,7 +7,7 @@ const Button = ({children, className, outline}) => {
     w-full py-3 
     ${outline 
       ? 'bg-transparent border-2 border-blue-600 text-blue-600' 
-      : 'bg-blue-600 text-white' }
+      : 'bg-blue-600 text-white hover:brightness-110' }
     font-bold 
     rounded-xl 
     ${className}`}>
