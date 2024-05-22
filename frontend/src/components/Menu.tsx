@@ -1,6 +1,7 @@
 import PillButton from '@components/Buttons/PillButton'
 import { icons } from "@/constants";
 import { useState } from 'react';
+import Dropdown from '@components/Dropdown';
 const NavigationMenu = () => {
     const [open, setOpen] = useState(false)
     return (
@@ -9,7 +10,9 @@ const NavigationMenu = () => {
                 <ul className="flex gap-8">
                     <li className="font-semibold"><a href="/">Home</a></li>
                     <li className="font-semibold"><a href="/">Articles</a></li>
-                    <li className="font-semibold"><a href="/">Page</a></li>
+                    <li className="font-semibold flex items-center gap-2 relative">
+                        <Dropdown />
+                    </li>
                     <li className="font-semibold"><a href="/">Pricing</a></li>
                 </ul>
                 <PillButton />

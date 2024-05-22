@@ -11,5 +11,7 @@ export const icons = {
         LINKEDIN: icon,
         GITHUB: icon,
         DISCORD: icon
-    }
+    },
+    DROPDOWN: icon,
+    ARROW_ICON: icon
 }

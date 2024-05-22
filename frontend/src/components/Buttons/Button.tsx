@@ -1,11 +1,13 @@
 import React from 'react'
 
-const Button = ({children, className}) => {
+const Button = ({children, className, outline}) => {
   return (
     <button 
     className={`
     w-full py-3 
-    bg-blue-600 text-white 
+    ${outline 
+      ? 'bg-transparent border-2 border-blue-600 text-blue-600' 
+      : 'bg-blue-600 text-white' }
     font-bold 
     rounded-xl 
     ${className}`}>
