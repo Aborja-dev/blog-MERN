@@ -3,9 +3,9 @@ import React from 'react'
 
 const CommentBox = () => {
   return (
-    <section className='container px-6 mx-auto py-8'>
+    <section className='container px-6 mx-auto py-8 md:w-5/6'>
       <form onSubmit={(e) => e.preventDefault()} className='w-full space-y-6 relative'>
-        <textarea className='border-2 border-blue-600 w-full rounded-lg p-4' 
+        <textarea className='border-2 border-blue-600 w-full rounded-lg p-4 lg:placeholder:text-lg' 
         rows={10} 
         placeholder='Leave your comment here...'>
             

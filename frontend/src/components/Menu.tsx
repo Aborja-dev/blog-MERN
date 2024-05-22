@@ -24,10 +24,10 @@ const NavigationMenu = () => {
             <div className={`w-full h-screen overflow-y-hidden absolute top-0 bg-blue-950 mt-20 transition-transform duration-300 z-10 ${open ? 'translate-x-0' :  '-translate-x-full'}`}>
             <div className='w-auto h-full'>
                 <ul className="flex flex-col h-4/5 justify-center gap-6 text-white font-semibold">
-                    <li className="text-center"><a href="/">Home</a></li>
-                    <li className="text-center"><a href="/">Articles</a></li>
-                    <li className="text-center"><a href="/">Page</a></li>
-                    <li className="text-center"><a href="/">Pricing</a></li>
+                    <li className="text-center md:text-2xl"><a href="/">Home</a></li>
+                    <li className="text-center md:text-2xl"><a href="/">Articles</a></li>
+                    <li className="text-center md:text-2xl"><a href="/">Page</a></li>
+                    <li className="text-center md:text-2xl"><a href="/">Pricing</a></li>
                     <div className='flex justify-center'>
                         <PillButton />
                     </div>

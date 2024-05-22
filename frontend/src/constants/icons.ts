@@ -9,7 +9,9 @@ import github from '../assets/icons/github-svgrepo-com.svg'
 import discord from '../assets/icons/discord-svgrepo-com.svg'
 import chevronDown from '../assets/icons/angle-down.svg'
 import arraowright from '../assets/icons/arrow-narrow-right-svgrepo-com.svg'
-
+import deleteIcon from "@/assets/icons/Delete outline.svg";
+import editIcon from "@/assets/icons/Edit.svg";
+import chatIcon from "@/assets/icons/chat_bubble_outline.svg";
 export const icons = {
     LOGO: logo,
     MENU_LOGO: menu,
@@ -23,5 +25,10 @@ export const icons = {
         DISCORD: discord
     },
     DROPDOWN: chevronDown,
-    ARROW_ICON: arraowright
+    ARROW_ICON: arraowright,
+    COMMENT: {
+        REPLY: chatIcon,
+        DELETE: deleteIcon,
+        EDIT: editIcon
+    }
 }
