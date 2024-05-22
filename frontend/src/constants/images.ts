@@ -1,8 +1,8 @@
-import avatarSanmple from "../assets/avatar-sample.jpg"
-import imageSample from "../assets/image-sample.jpg"
+import defaultAvatar from "../assets/images/User-avatar.svg.png";
+import defaultPostImage from "../assets/images/blog-default.jpg";
+import CTAcardImage from "../assets/images/CTA.png";
 export const images = {
-    HERO_COVER: imageSample,
-    CARD_IMAGE: imageSample,
-    CTA_IMAGE: imageSample,
-    USER_AVATAR: avatarSanmple
+    CARD_IMAGE: defaultPostImage,
+    CTA_IMAGE: CTAcardImage,
+    USER_AVATAR: defaultAvatar
 }

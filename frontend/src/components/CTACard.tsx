@@ -3,7 +3,7 @@ import { images } from '@/constants'
 const CTACard = () => {
   return (
     <div className='relative'>
-      <div className='w-[200px] h-[200px] bg-[#FC5A5A] absolute top-[42px] -right-[50px] z-5'></div>
+      <div className='w-[200px] h-[200px] bg-[#FC5A5A] absolute top-[42px] rounded-lg -right-[50px] z-5'></div>
       <div className='w-[250px] h-[250px] bg-[#fff] opacity-20 absolute rounded-lg bottom-[-42px] left-[-61px]'></div>
       <article className={`
     rounded-xl  bg-white max-w-[400px]

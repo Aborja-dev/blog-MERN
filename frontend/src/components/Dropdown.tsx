@@ -7,7 +7,7 @@ const Dropdown = () => {
         <>
             <a href="/">Page</a>
             <button className="relative" onClick={() => setOpen(!open)}>
-                <img src={icons.DROPDOWN} className='w-4 h-4' alt="" />
+                <img src={icons.DROPDOWN} className='w-2 h-2' alt="" />
             </button>
             <div className={`
             absolute bg-slate-100 p-3 pr-8 left-0 top-[40px]

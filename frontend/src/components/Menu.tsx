@@ -2,18 +2,19 @@ import PillButton from '@components/Buttons/PillButton'
 import { icons } from "@/constants";
 import { useState } from 'react';
 import Dropdown from '@components/Dropdown';
+import NavBarItem from '@components/NavBarItem';
 const NavigationMenu = () => {
     const [open, setOpen] = useState(false)
     return (
         <nav className="flex justify-end items-center gap-8">
             <div className='hidden lg:flex lg:items-center lg:gap-4'>
                 <ul className="flex gap-8">
-                    <li className="font-semibold"><a href="/">Home</a></li>
-                    <li className="font-semibold"><a href="/">Articles</a></li>
+                    <NavBarItem>Home</NavBarItem>
+                    <NavBarItem>Articles</NavBarItem>
                     <li className="font-semibold flex items-center gap-2 relative">
                         <Dropdown />
                     </li>
-                    <li className="font-semibold"><a href="/">Pricing</a></li>
+                    <NavBarItem>Pricing</NavBarItem>
                 </ul>
                 <PillButton />
             </div>

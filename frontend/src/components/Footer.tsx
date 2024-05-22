@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer className="container py-24 md:py-12 bg-blue-950">
             <div className="px-6 md:mx-auto space-y-6 md:flex md:px-16 lg:w-10/12 lg:mx-auto">
-                <div className='grid grid-cols-2 gap-y-10 md:w-1/2 lg:grid-cols-4 lg:flex-grow lg:justify-between'>
+                <div className='grid grid-cols-2 gap-y-10 md:w-2/3 lg:grid-cols-4 lg:flex-grow lg:justify-between'>
                     <ul className='col-span-1 text-sm text-slate-500 space-y-6 lg:text-base'>
                         <h3 className='font-bold text-slate-300'>Product</h3>
                         <li>Landingpage</li>

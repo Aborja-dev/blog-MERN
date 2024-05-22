@@ -13,7 +13,7 @@ const Field: React.FC<Component> = () => {
             `}
         >
             <input type="text" 
-            className={`
+            className={` w-full
             placeholder:text-slate-400 placeholder:font-bold placeholder:italic 
             focus:outline-none`} 
             placeholder="Search article" />
