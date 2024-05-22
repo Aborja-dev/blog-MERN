@@ -3,13 +3,17 @@ import Button from '@components/Buttons/Button'
 import { icons } from '@/constants'
 import React from 'react'
 import { Post } from '@/types'
+import { Link } from "react-router-dom";
+
 const Posts: React.FC<{posts: Post[]}> = ({posts}) => {
     return (
         <section>
             <div className='container p-6 grid grid-cols-6 gap-6 lg:w-10/12 lg:mx-auto'>
                 {
                     posts.map((post, index) => (
-                        <BlogCard key={index} className="col-span-6 md:col-span-3 lg:col-span-2" {...post} />
+                        <Link to={`/blog/${post.id}`} key={index} className="col-span-6 md:col-span-3 lg:col-span-2">
+                            <BlogCard  {...post} />
+                        </Link>
                     ))
                 }
             </div>

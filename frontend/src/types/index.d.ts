@@ -11,3 +11,11 @@ export interface Post {
     created_at: string;
     Image?: string;
 }
+
+export interface Comment {
+    id: string;
+    comment: string;
+    author: string;
+    created_at: string;
+    children?: Comment[]
+}
