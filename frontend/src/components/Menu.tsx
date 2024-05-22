@@ -5,8 +5,8 @@ const NavigationMenu = () => {
     const [open, setOpen] = useState(false)
     return (
         <nav className="flex justify-end items-center gap-8">
-            <div className='hidden'>
-                <ul className="flex gap-4">
+            <div className='hidden lg:flex lg:items-center lg:gap-4'>
+                <ul className="flex gap-8">
                     <li className="font-semibold"><a href="/">Home</a></li>
                     <li className="font-semibold"><a href="/">Articles</a></li>
                     <li className="font-semibold"><a href="/">Page</a></li>
@@ -14,7 +14,7 @@ const NavigationMenu = () => {
                 </ul>
                 <PillButton />
             </div>
-            <button className='pr-6' onClick={() => setOpen(!open)}>
+            <button className='pr-6 lg:hidden' onClick={() => setOpen(!open)}>
                 <img src={icons.MENU_LOGO} className='w-10 h-10' alt="" />
             </button>
             <div className={`w-full h-screen absolute top-0 bg-blue-950 mt-20 ${open || 'hidden'}`}>
