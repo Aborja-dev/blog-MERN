@@ -1,17 +1,26 @@
-import Button from '@/components/Buttons/Button'
+
+import TextArea from '@/components/forms/TextArea'
 import React from 'react'
 
 const CommentBox = () => {
+
+  const addCommentHandler = (value, parent=null, replyOnUser = null) => {
+    const newComment = {
+      _id: "10",
+      user: {
+        _id: "a",
+        name: "Mohammad Rezaii",
+      },
+      desc: "it was a nice post, Thank you!",
+      post: "1",
+      parent: null,
+      replyOnUser: null,
+      createdAt: "2022-12-31T17:22:05.092+0000",
+    }
+  }
   return (
     <section className='container px-6 mx-auto py-8 md:w-5/6'>
-      <form onSubmit={(e) => e.preventDefault()} className='w-full space-y-6 relative'>
-        <textarea className='border-2 border-blue-600 w-full rounded-lg p-4 lg:placeholder:text-lg' 
-        rows={10} 
-        placeholder='Leave your comment here...'>
-            
-        </textarea>
-        <Button className='absolute bottom-6 right-3 max-w-[100px] text-xs font-send'>Send</Button>
-      </form>
+      <TextArea btnLabel='Comment' formSubmitHandler={(text) => addCommentHandler(text)} />
     </section>
   )
 }

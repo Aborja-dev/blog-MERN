@@ -13,7 +13,7 @@ const posts: Post[] = [
     resumen: "La tecnología ha transformado la forma en que aprendemos y enseñamos, permitiendo acceso a recursos educativos de alta calidad para todos.",
     author: "Juan Pérez",
     created_at: "01 Junio",
-    Image: 'https://picsum.photos/id/237/900/600'
+    urlCover: 'https://picsum.photos/id/237/900/600'
   },
   {
     id: "2",
@@ -21,7 +21,7 @@ const posts: Post[] = [
     resumen: "El cambio climático es uno de los mayores desafíos globales que enfrentamos hoy, afectando tanto a los ecosistemas naturales como a nuestras vidas diarias.",
     author: "María García",
     created_at: "05 Mayo",
-    Image: 'https://picsum.photos/id/241/900/600'
+    urlCover: 'https://picsum.photos/id/241/900/600'
   },
   {
     id: "3",
@@ -29,7 +29,7 @@ const posts: Post[] = [
     resumen: "La salud mental es fundamental para nuestro bienestar general, y es importante reconocerla y cuidarla tanto como lo hacemos con nuestra salud física.",
     author: "Carlos Rodríguez",
     created_at: "15 Julio",
-    Image: 'https://picsum.photos/id/242/900/600'
+    urlCover: 'https://picsum.photos/id/242/900/600'
   },
   {
     id: "4",
@@ -37,7 +37,7 @@ const posts: Post[] = [
     resumen: "Las energías renovables están revolucionando la industria de la energía, ofreciendo soluciones sostenibles y eficientes al problema de la energía.",
     author: "Ana López",
     created_at: "20 Agosto",
-    Image: 'https://picsum.photos/id/243/900/600'
+    urlCover: 'https://picsum.photos/id/243/900/600'
   },
   {
     id: "5",
@@ -45,7 +45,7 @@ const posts: Post[] = [
     resumen: "La robótica está avanzando rápidamente, abriendo nuevas posibilidades en diversos campos, desde la medicina hasta la manufactura industrial.",
     author: "Luis Martínez",
     created_at: "30 Septiembre",
-    Image: 'https://picsum.photos/id/244/900/600'
+    urlCover: 'https://picsum.photos/id/244/900/600'
   },
   {
     id: "6",
@@ -53,7 +53,7 @@ const posts: Post[] = [
     resumen: "Las redes sociales han cambiado la forma en que nos comunicamos y interactuamos, pero también plantean desafíos en términos de privacidad y seguridad.",
     author: "Sofía Hernández",
     created_at: "15 Octubre",
-    Image: 'https://picsum.photos/id/244/900/600'
+    urlCover: 'https://picsum.photos/id/284/900/600'
   }
 ]
 

@@ -1,4 +1,4 @@
-import Brand from "@components/Brand"
+import Brand from "@/components/shared/Brand"
 import NavigationMenu from "@components/Menu"
 
 

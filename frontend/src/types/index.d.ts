@@ -9,7 +9,17 @@ export interface Post {
     resumen: string;
     author: string;
     created_at: string;
-    Image?: string;
+    urlCover?: string;
+}
+
+export interface PostDetails extends Post {
+    content: string,
+    categories: string[],
+    comments?: Comment[]
+}
+
+export interface CommentFetch {
+    
 }
 
 export interface Comment {
@@ -18,4 +28,5 @@ export interface Comment {
     author: string;
     created_at: string;
     children?: Comment[]
+    isChildren?: boolean
 }

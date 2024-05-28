@@ -1,7 +1,7 @@
 import { assets } from "@/constants";
 import Button from "@components/Buttons/Button";
-import Field from "@components/Field";
-import CTACard from "@components/CTACard";
+import Field from "@/components/shared/Field";
+import CTACard from "@/components/Cards/CTACard";
 
 const CTA = () => {
     return (

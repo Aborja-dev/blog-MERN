@@ -1,8 +1,8 @@
 import PillButton from '@components/Buttons/PillButton'
 import { icons } from "@/constants";
 import { useState } from 'react';
-import Dropdown from '@components/Dropdown';
-import NavBarItem from '@components/NavBarItem';
+import Dropdown from '@/components/shared/Dropdown';
+import NavBarItem from '@/components/shared/NavBarItem';
 const NavigationMenu = () => {
     const [open, setOpen] = useState(false)
     return (

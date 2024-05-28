@@ -1,7 +1,8 @@
 
+import Image from '@/components/shared/Image'
 import { images, icons } from '@/constants'
 import { type Post, type Component } from '@/types'
-const BlogCard: React.FC<Post & Component> = ({className, author, resumen, created_at, title, Image}) => {
+const BlogCard: React.FC<Post & Component> = ({className, author, resumen, created_at, title, urlCover}) => {
   return (
     <article className={`
     rounded-xl overflow-hidden 
@@ -12,9 +13,7 @@ const BlogCard: React.FC<Post & Component> = ({className, author, resumen, creat
     hover:cursor-pointer
     ${className}
     `}>
-                <figure className='w-full h-40 overflow-hidden mb-3'>
-                    <img src={Image || images.CARD_IMAGE} alt="" />
-                </figure>
+                <Image urlImage={urlCover || images.CARD_IMAGE} className='w-full h-40 rounded-none' />
                 <div className='p-6'>
                     <h3 className='text-2xl font-bold text-blue-950'>{title} </h3>
                     <p className='text-slate-500 text-sm md:text-base lg:text-lg'>{resumen}</p>
